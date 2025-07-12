@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shah Parshva | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">Toggle Dark Mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about" class="content-section">
+      <img src="./bike.jpg" alt="A profile picture of Shah Parshva" class="profile-pic" />
+      <h1>Hi, I'm Shah Parshva</h1>
+      <p class="bio">
+        I'm a passionate web developer with a love for creating clean, interactive, and user-friendly websites. I specialize in the front-end trinity: HTML, CSS, and JavaScript.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="content-section">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>A brief description of the first project of Dhingali Ghar Kiddie wear. From playdates to parties – one stop for all your kiddie fashion.</p>
+          <a href="https://shah-parshva.github.io/Dhingali-Ghar/" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>A brief description of the second project of Photo Studio. A moment, a mood, a memory. We highlighted personality using light, focus, and depth.</p>
+          <a href="https://shah-parshva.github.io/html-Photostudio-/" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>A brief description of the third project of sneaker store. A stylish sneaker built for everyday comfort. Lightweight and breathable with a sleek design.</p>
+          <a href="https://shah-parshva.github.io/html-sneaker/" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+      <h2>Get In Touch</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Shah Parshva. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
